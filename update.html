@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kepala" ><h1>Department</h1></div>
+    
+    <!-- <button><a href="formDept.html">Input</a></button> -->
+    <form method="PUT" onsubmit="return editData();">
+        <p>
+            <label>Department Name</label>
+            <input type="text" id="departmentName" placeholder="Department Name..." required>
+        </p>
+        <p>
+            <label>Manager Id</label>
+            <input type="text" id="managerId" placeholder="Manager ID...">
+        </p>
+        <p>
+            <label>Location Id</label>
+            <input type="text" id="locationId" placeholder="Location ID...">
+        </p>
+        <input type="button" value="kirim">
+    </form>
+    <button><a href="department.html">Back</a></button><hr>
+
+    <script src="department.js"></script>
+</body>
+</html>
